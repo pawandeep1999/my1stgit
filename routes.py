@@ -2,7 +2,7 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-  user = {'username': 'SEHJALPREET'}
+  user = {'username': 'PAWANDEEP SINGH THANDI'}
  return '''
 <html>
  <head>
@@ -11,4 +11,4 @@ def index():
  <body>
  <h1>Hello, ''' + user['username'] + '''!</h1>
  </body>
-</html>'''
+</html>'''
